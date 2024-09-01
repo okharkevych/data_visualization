@@ -5,12 +5,12 @@ from random_walk import RandomWalk
 # Generate new walks while the program is active
 while True:
     # Generate random walk
-    rw = RandomWalk()
+    rw = RandomWalk(50_000)
     rw.fill_walk()
 
     # Record random walk points on the graph
     plt.style.use('classic')
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(15, 9), dpi=128)
     point_numbers = range(rw.num_points)
     ax.scatter(
         rw.x_values,
@@ -18,7 +18,7 @@ while True:
         c=point_numbers,
         cmap=plt.cm.Blues,
         edgecolors='none',
-        s=15
+        s=1
     )
 
     # Single out the first and last points
