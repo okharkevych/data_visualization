@@ -7,16 +7,10 @@ from die import Die
 die = Die()
 
 # Make several rolls and save the results to a list
-results = []
-for roll_num in range(1000):
-    result = die.roll()
-    results.append(result)
+results = [die.roll() for roll_num in range(1000)]
 
 # Analyze results
-frequencies = []
-for value in range(1, die.num_sides + 1):
-    frequency = results.count(value)
-    frequencies.append(frequency)
+frequencies = [results.count(value) for value in range(1, die.num_sides + 1)]
 
 # Visualize the results
 x_values = list(range(1, die.num_sides + 1))
