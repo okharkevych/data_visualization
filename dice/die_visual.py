@@ -19,7 +19,7 @@ for value in range(1, die.num_sides + 1):
     frequencies.append(frequency)
 
 # Visualize the results
-x_values = list(range(1, die.num_sides))
+x_values = list(range(1, die.num_sides + 1))
 data = [Bar(x=x_values, y=frequencies)]
 
 x_axis_config = {'title': 'Result'}
