@@ -25,3 +25,4 @@ node_modules/
 
 # Specific to the project
 *.html
+readable_eq_data.json
