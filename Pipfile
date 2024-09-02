@@ -7,6 +7,7 @@ name = "pypi"
 matplotlib = "*"
 pyqt6 = "*"
 plotly = "*"
+requests = "*"
 
 [dev-packages]
 
