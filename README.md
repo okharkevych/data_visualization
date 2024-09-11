@@ -15,10 +15,8 @@ Earthquake data report was downloaded manually from https://earthquake.usgs.gov/
 Data related to GitHub repositories and Hacker News articles was extracted
 automatically using API.
 
-<div align=center margin=auto> 
-  <img src="images/squares.png" width=40%>
-  <img src="images/squares_more_and_scatter.png" width=40%>
-</div>
+| ![Image 1](images/squares.png) | ![Image 2](images/squares_more_and_scatter.png) |
+|:------------------------------:|:----------------------------------------------:|
 
 <div align=center margin=auto> 
   <img src="images/d6_d10_dice_rolls.png" width=80%>
